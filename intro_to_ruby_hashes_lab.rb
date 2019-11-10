@@ -1,4 +1,3 @@
-require 'pry'
 def new_hash
   new_hash = {}
 end
@@ -20,7 +19,7 @@ def id_generator
   id_generator = {
     id: 43
   }
-  binding.pry
+
 end
 
 def my_hash_creator(key, value)
