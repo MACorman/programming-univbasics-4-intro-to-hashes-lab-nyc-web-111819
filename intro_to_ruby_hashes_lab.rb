@@ -1,31 +1,22 @@
 def new_hash
-  new_hash = {}
+  {}
 end
 
 def my_hash
-  my_hash = {
-    name: "Madeline Corman",
-    age: 24
-  }
+  {name: "Madeline Corman",
+    age: 24}
 end
 
 def pioneer
- pioneer = {
-   name: "Grace Hopper"
- }
+ {name: "Grace Hopper"}
 end
 
 def id_generator
-  id_generator = {
-    id: 43
-  }
-
+  {id: 43}
 end
 
 def my_hash_creator(key, value)
-my_hash_creator = {}
-my_hash_creator[key] = value
-return my_hash_creator
+{key
 end
 
 def read_from_hash(hash, key)
